@@ -1,0 +1,23 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      body {
+        width: 100vw;  /* 100% of the viewport width */
+        height: 100vh; /* 100% of the viewport height */
+        margin: 0;     /* Remove default margin */
+      }
+      #results {
+        height: calc(100vh - 50px); /* Adjust height as required */
+        overflow-y: scroll;
+      }
+    </style>
+  </head>
+  <body>
+    <h3>Sitemap 404 Checker</h3>
+    <button id="check-404">Check 404 Links</button>
+    <div id="results"></div>
+    <script src="popup.js"></script>
+  </body>
+</html>

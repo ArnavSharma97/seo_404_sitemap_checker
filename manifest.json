@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "Sitemap 404 Checker",
+  "version": "1.0",
+  "action": {
+    "default_icon": {
+      "16": "icon16.png",
+      "48": "icon48.png",
+      "128": "icon128.png"
+    }
+  },
+  "permissions": ["activeTab", "tabs"],
+  "host_permissions": ["http://*/*", "https://*/*"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  }
+}
